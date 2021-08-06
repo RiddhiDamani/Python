@@ -177,3 +177,5 @@ for set_value in city_names_set:
 # Dictionaries keys must be immutable - for ex: str, bytes, numeric.
 
 # Cells in the hash tables are often called buckets
+
+# Consequences of using a hash table : Keys must be immutable. Significant memory overhead (although with Python 3.6, using of spare arrays has solved this issue). Key search is very fast. Key ordering depends on the insertion order. Adding items to the dictionary may change the order of the exisiting keys. 
